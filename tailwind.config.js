@@ -15,10 +15,10 @@ module.exports = {
         mont: ['var(--font-mont)', ...fontFamily.sans],
       },
       colors:{
-        dark: "##1b1b1b",  /* Russian violet, #5A4FCF-iris*/
+        dark: "#1b1b1b",  /* Russian violet, #5A4FCF-iris*/
          /*b#1877F2 original, #A0785A-profilepic color */
         prof: "#A0785A",
-        iris: "#0e1012",
+        iris: "#5A4FCF",
         org: "b#1877F2",
         light: "#f5f5f5",
         primary: "#B63E96", // 240,86,199
@@ -26,6 +26,9 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
+      },
+      backgroundImage:{
+        circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 100px);'
       }
     },
   },

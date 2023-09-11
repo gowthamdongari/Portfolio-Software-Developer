@@ -5,11 +5,11 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <footer className='w-full border-t-2 border-solid border-dark
-    font-medium text-lg
+    font-medium text-lg sm:text-base
     '>
-        <Layout className='py-8 flex items-center justify-between'>
+        <Layout className='py-8 flex items-center justify-between lg:flex-col lg:py-6'>
             <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
-           {/* <div className="flex items-center">
+           {/* <div className="flex items-center lg:py-2">
                 Build with <span className= "text-primary text-2xl px-1">&#9825;</span>
                 by&nbsp;<Link href="https://www.linkedin.com/in/gowthamdongari/" className='underline
                 underline-offset-2
@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>*/}
             <Link href="https://www.linkedin.com/in/gowthamdongari/" target={"_blank"}className='underline
                 underline-offset-2
-                '>Say Hi</Link>
+                '>Lets Catch up!!</Link>
 
         </Layout>
 

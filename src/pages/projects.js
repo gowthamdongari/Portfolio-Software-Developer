@@ -4,7 +4,11 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import project1 from "../../public/images/projects/E-Comm.png"
+import project2 from "../../public/images/projects/Portfolio_website.png"
+import project3 from "../../public/images/projects/Responsive website.png"
+import project4 from "../../public/images/projects/weather N.png"
+import project5 from "../../public/images/projects/Weather app.webp"
 import Image from 'next/image'
 import {motion} from "framer-motion"
 import TransitionEffect from '@/components/TransitionEffect'
@@ -113,8 +117,8 @@ const projects = () => {
                         <FeaturedProject
                         title="E-Commerce Application"    
                         img={project1}
-                        summary="A feature-rich E-Commerce App using React, Tailwind CSS, Context API, React Router and Recharts. 
-     It Functions with all features including payment system."  
+                        summary="I've built end to end E-comm project, a cutting-edge multi-vendor ecommerce platform utilizing the MERN stack,
+     complemented by the latest technologies such as Tailwind CSS, Socket.io, Redux Toolkit, and more, delivering a seamless online shopping experience."  
                         link="/"
                         github="/" 
                         type="Featured Project"                 
@@ -124,22 +128,22 @@ const projects = () => {
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Project
-                        title="E-Commerce Application"    
-                        img={project1}
-                        summary="A feature-rich E-Commerce App using React, Tailwind CSS, Context API, React Router and Recharts. 
-     It Functions with all features including payment system."  
+                        title="Portfolio Website"    
+                        img={project2}
+                        summary="Crafted a captivating portfolio website with React.js, Next.js, and JavaScript, 
+            serving as a dynamic canvas to flaunt my skills and accomplishments, making a statement in the digital world."  
                         link="/"
-                        github="/" 
+                        github="https://github.com/gowthamdongari/Portfolio-Software-Developer" 
                         type="Featured Project"                 
                                         
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Project
-                        title="E-Commerce Application"    
-                        img={project1}
-                        summary="A feature-rich E-Commerce App using React, Tailwind CSS, Context API, React Router and Recharts. 
-     It Functions with all features including payment system."  
+                        title="Weather App"    
+                        img={project5}
+                        summary="I've created a weather application from the ground up, providing real-time weather information
+     and forecasts, ensuring users stay informed about current conditions with a user-friendly interface and real time data."  
                         link="/"
                         github="/" 
                         type="Featured Project"                 
@@ -150,8 +154,8 @@ const projects = () => {
                     <FeaturedProject
                         title="E-Commerce Application"    
                         img={project1}
-                        summary="A feature-rich E-Commerce App using React, Tailwind CSS, Context API, React Router and Recharts. 
-     It Functions with all features including payment system."  
+                        summary="I've built end to end E-comm project, a cutting-edge multi-vendor ecommerce platform utilizing the MERN stack,
+    complemented by the latest technologies such as Tailwind CSS, Socket.io, Redux Toolkit, and more, delivering a seamless online shopping experience."  
                         link="/"
                         github="/" 
                         type="Featured Project"                 
@@ -160,22 +164,22 @@ const projects = () => {
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Project
-                        title="E-Commerce Application"    
-                        img={project1}
-                        summary="A feature-rich E-Commerce App using React, Tailwind CSS, Context API, React Router and Recharts. 
-     It Functions with all features including payment system."  
+                        title="Portfolio Personal Website"    
+                        img={project3}
+                        summary="Crafted a captivating portfolio website with React.js, Next.js, and JavaScript,
+                 serving as a dynamic canvas to flaunt my skills and accomplishments, making a statement in the digital world."  
                         link="/"
-                        github="/" 
+                        github="https://github.com/gowthamdongari/Portfolio-Software-Developer" 
                         type="Featured Project"                 
                                         
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Project
-                        title="E-Commerce Application"    
-                        img={project1}
-                        summary="A feature-rich E-Commerce App using React, Tailwind CSS, Context API, React Router and Recharts. 
-     It Functions with all features including payment system."  
+                        title="Weather App"    
+                        img={project4}
+                        summary="I've created a weather application from the ground up, providing real-time weather information
+    and forecasts, ensuring users stay informed about current conditions with a user-friendly interface and real time data"  
                         link="/"
                         github="/" 
                         type="Featured Project"                 

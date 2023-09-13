@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
 import TransitionEffect from '@/components/TransitionEffect'
+import resume from '../../GOWTHAM DONGARI Resume.pdf'
 
 export default function Home() {
   return (
@@ -40,7 +41,7 @@ export default function Home() {
 Dive into my portfolio to discover my latest projects, all reflecting my evolving expertise in software development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/GOWTHAM DONGARI Resume.pdf" target={"_blank"}
+                <Link href={resume} target={"_blank"}
                 className='flex items-center bg-black text-light p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                 border-2 border-solid border-transparent hover:border-dark 

@@ -2,8 +2,8 @@
 
 This is my Portfolio website created using NextJs. <br />
 
-For Demo click following link👇: <br />
-[Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion#code-links) <br />
+click the following link👇: <br />
+[Portfolio Website](https://gowtham-dongari.vercel.app/) <br />
 
 
 

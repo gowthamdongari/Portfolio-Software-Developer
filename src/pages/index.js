@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>Gowtham Dongari | Portfolio Page</title>
-        <meta name="Gowtham" content="Full Stack Developer" />
+        <meta name="Gowtham Dongari, Southern Methodist University, dallas, Income Tax, Urban Rebox, Dongari Gowtham, software engineer, fullstack developer, open source" content="Full Stack Developer" />
         
       </Head>
       <TransitionEffect />

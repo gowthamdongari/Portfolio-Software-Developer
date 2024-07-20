@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Gowtham Dongari | Portfolio Page</title>
+        <title>Gowtham Dongari | Portfolio </title>
         <meta
           name="Gowtham Dongari, Southern Methodist University, Dallas, Income Tax, Urban Rebox, Dongari Gowtham, software engineer, fullstack developer, open source"
           content="Full Stack Developer"

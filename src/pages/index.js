@@ -8,6 +8,7 @@ import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import About from "./about";
 import Projects from "./projects";
@@ -103,6 +104,7 @@ export default function Home() {
           <Projects />
         </section>
       </main>
+      <SpeedInsights />
     </>
   );
 }

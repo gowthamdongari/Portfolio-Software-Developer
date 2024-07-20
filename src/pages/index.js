@@ -104,7 +104,7 @@ export default function Home() {
           <Projects />
         </section>
       </main>
-      <SpeedInsights />
+      {/* <SpeedInsights /> */}
     </>
   );
 }

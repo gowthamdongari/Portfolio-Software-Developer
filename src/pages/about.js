@@ -40,6 +40,15 @@ const about = () => {
       <Head>
         <title>Gowtham Dongari | About Page</title>
         <meta name="description" content="any description" />
+
+        <meta
+          name="description"
+          content="Learn more about Gowtham Dongari, a software developer and master's student at Southern Methodist University."
+        />
+        <meta
+          name="keywords"
+          content="Gowtham Dongari, about, software developer, SMU, master's student"
+        />
       </Head>
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center">

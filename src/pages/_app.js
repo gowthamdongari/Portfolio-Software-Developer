@@ -16,7 +16,13 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Gowtham Dongari" />
+        <meta name="keywords" content="Gowtham Dongari, software developer, Southern Methodist University, SMU, master's student, income tax, Urban Rebox, full stack developer, open source, Dallas" />
+        <link rel="canonical" href="https://gowthamdongari.com" /> {/* Update with your actual URL */}
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/public/images/profile/Professional_9.png" /> {/* Update with your actual image path */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}>

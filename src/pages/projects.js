@@ -142,7 +142,8 @@ const projects = () => {
     <>
       <Head>
         <title>Gowtham Dongari | Projects </title>
-        <meta name="description" content="any description" />
+        <meta name="description" content="Explore the projects of Gowtham Dongari, a software developer and master's student at Southern Methodist University." />
+        <meta name="keywords" content="Gowtham Dongari, projects, software developer, SMU, master's student" />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center">
